@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="14.0" layoutY="12.0" text="Please choose which videos you want to download:" />
+        <Pagination fx:id="pagination" layoutX="15.0" layoutY="42.0" prefHeight="312.0" prefWidth="570.0" />
+      <Button layoutX="544.0" layoutY="362.0" mnemonicParsing="false" onMouseClicked="#start" style="-fx-background-color: #33bf7b; -fx-text-fill: #fff;" text="Start">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+        <Button layoutX="14.0" layoutY="362.0" mnemonicParsing="false" onMouseClicked="#back" style="-fx-background-color: #33bf7b; -fx-text-fill: #fff;" text="Back">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ChoiceBox fx:id="filter" layoutX="436.0" layoutY="8.0" prefWidth="150.0" style="-fx-background-color: #72baf9; -fx-text-fill: #fff;">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ChoiceBox>
+      <Label layoutX="372.0" layoutY="12.0" text="Filter:" />
+    </children>
+</Pane>

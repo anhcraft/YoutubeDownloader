@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="13.0" layoutY="11.0" text="List of video Ids:" />
+      <TextArea fx:id="videoIds" layoutX="13.0" layoutY="40.0" prefHeight="310.0" prefWidth="395.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextArea>
+      <Button layoutX="425.0" layoutY="32.0" mnemonicParsing="false" onMouseClicked="#discoverPlaylist" prefHeight="25.0" prefWidth="130.0" style="-fx-background-color: #e77aef; -fx-text-fill: #fff;" text="Discover a playlist">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="425.0" layoutY="66.0" mnemonicParsing="false" onMouseClicked="#discoverVideos" prefHeight="25.0" prefWidth="130.0" style="-fx-background-color: #fc816c; -fx-text-fill: #fff;" text="Discover videos">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+       <ProgressBar fx:id="progressBar" layoutX="13.0" layoutY="362.0" prefHeight="18.0" prefWidth="395.0" progress="0.0" />
+      <Button layoutX="245.0" layoutY="7.0" mnemonicParsing="false" onMouseClicked="#loadList" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #33bf7b; -fx-text-fill: #fff;" text="Load list">
+          <cursor>
+              <Cursor fx:constant="HAND" />
+          </cursor>
+      </Button>
+      <Button layoutX="334.0" layoutY="7.0" mnemonicParsing="false" onMouseClicked="#saveList" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #33bf7b; -fx-text-fill: #fff;" text="Save list">
+          <cursor>
+              <Cursor fx:constant="HAND" />
+          </cursor>
+      </Button>
+      <Button layoutX="425.0" layoutY="100.0" mnemonicParsing="false" onMouseClicked="#downloadVideos" prefHeight="25.0" prefWidth="130.0" style="-fx-background-color: #fc816c; -fx-text-fill: #fff;" text="Download videos">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button graphicTextGap="3.0" layoutX="425.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#settings" prefHeight="25.0" prefWidth="74.0" style="-fx-text-fill: #fff; -fx-background-color: #3364bf;" text="Settings">
+          <cursor>
+              <Cursor fx:constant="HAND" />
+          </cursor>
+      </Button>
+      <Label layoutX="425.0" layoutY="363.0" text="(c) anhcraft" />
+   </children>
+</Pane>

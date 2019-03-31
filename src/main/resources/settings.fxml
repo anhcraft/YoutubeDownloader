@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="13.0" layoutY="7.0" text="Settings">
+            <font>
+                <Font size="28.0" />
+            </font>
+        </Label>
+        <TextField fx:id="accessToken" layoutX="13.0" layoutY="90.0" prefHeight="25.0" prefWidth="577.0">
+            <cursor>
+                <Cursor fx:constant="TEXT" />
+            </cursor></TextField>
+        <Separator layoutX="13.0" layoutY="51.0" prefHeight="5.0" prefWidth="577.0" />
+        <Label layoutX="13.0" layoutY="65.0" text="Access Token" />
+        <Button layoutX="540.0" layoutY="361.0" style="-fx-background-color: #33bf7b; -fx-text-fill: #fff;" mnemonicParsing="false" onMouseClicked="#back" prefHeight="25.0" prefWidth="50.0" text="Back">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+    </children>
+</Pane>

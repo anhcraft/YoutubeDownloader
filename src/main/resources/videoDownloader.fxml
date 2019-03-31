@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <TextArea fx:id="logs" editable="false" layoutX="14.0" layoutY="18.0" prefHeight="287.0" prefWidth="572.0">
+            <cursor>
+                <Cursor fx:constant="TEXT" />
+            </cursor>
+        </TextArea>
+        <ProgressBar fx:id="progressBar2" layoutX="14.0" layoutY="370.0" prefHeight="18.0" prefWidth="572.0" progress="0.0" />
+        <Button layoutX="519.0" layoutY="313.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #33bf7b; -fx-text-fill: #fff;" text="Back">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+      <ProgressBar fx:id="progressBar1" layoutX="14.0" layoutY="346.0" prefHeight="18.0" prefWidth="572.0" progress="0.0" />
+      <Label fx:id="status" layoutX="14.0" layoutY="317.0" />
+      <Button layoutX="422.0" layoutY="313.0" mnemonicParsing="false" onMouseClicked="#openFolder" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: #59b7ff; -fx-text-fill: #fff;" text="Open folder">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+    </children>
+</Pane>
